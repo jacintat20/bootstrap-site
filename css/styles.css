@@ -11201,3 +11201,318 @@ body {
 .footer {
   padding: 5rem 0;
 }
+
+:root {
+  --bs-primary: #b96f55;
+  --bs-primary-rgb: 185, 111, 85;
+  --bs-link-color: #9c5b46;
+  --bs-link-hover-color: #744332;
+  --bs-body-color: #433b35;
+  --bs-body-bg: #fffaf5;
+}
+
+body {
+  letter-spacing: 0.02em;
+  color: #433b35;
+  background-color: #fffaf5;
+}
+
+h1,
+h2,
+h3,
+.navbar-brand {
+  font-family: Georgia, "Times New Roman", serif;
+  letter-spacing: 0.01em;
+}
+
+#mainNav {
+  background-color: #fffaf5;
+  box-shadow: 0 2px 18px rgba(64, 45, 34, 0.08);
+}
+
+#mainNav .navbar-brand {
+  color: #65483b;
+  font-size: 1.25rem;
+}
+
+#mainNav .navbar-brand span {
+  color: #bd775d;
+}
+
+#mainNav .navbar-toggler {
+  color: #9c5b46;
+  border-color: #d7b5a4;
+}
+
+#mainNav .nav-link,
+#mainNav.navbar-shrink .nav-link {
+  color: #68564c;
+  font-size: 0.82rem;
+  letter-spacing: 0.08em;
+}
+
+#mainNav .nav-link:hover,
+#mainNav.navbar-shrink .nav-link:hover,
+#mainNav.navbar-shrink .nav-link.active {
+  color: #a85e47;
+}
+
+#mainNav.navbar-shrink .nav-link {
+  border-bottom-color: transparent;
+}
+
+.btn {
+  border-radius: 50rem;
+  box-shadow: 0 5px 16px rgba(77, 38, 25, 0.16) !important;
+  padding: 1rem 1.6rem;
+  font-family: Nunito, sans-serif;
+  font-size: 0.76rem;
+  letter-spacing: 0.1em;
+}
+
+.btn-primary {
+  background-color: #fffaf5;
+  color: #b96f55;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #9e5d46;
+}
+
+.masthead {
+  height: auto !important;
+  min-height: 43rem;
+  padding: 10rem 0 8rem;
+  background:
+    linear-gradient(90deg, rgba(27, 26, 29, 0.68), rgba(27, 26, 29, 0.25)),
+    url("../assets/img/blurrychicago.jpg") center 48% / cover no-repeat;
+}
+
+.masthead-copy {
+  max-width: 52rem;
+}
+
+.masthead .eyebrow {
+  color: #f7ddc4;
+}
+
+.masthead h1,
+.masthead h1.mx-auto {
+  max-width: none;
+  background: none;
+  color: #fffaf5;
+  -webkit-text-fill-color: #fffaf5;
+  font-size: clamp(3.5rem, 8vw, 6.8rem);
+  font-weight: 400;
+  line-height: 0.98;
+  letter-spacing: 0.01em;
+}
+
+.masthead h2 {
+  max-width: 34rem;
+  font-size: 1.15rem;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+.eyebrow {
+  margin-bottom: 0.8rem;
+  color: #a3634c;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.about-section {
+  padding: 7rem 0 6rem;
+  background: #fffaf5;
+}
+
+.about-section h2,
+.section-heading h2 {
+  color: #49372e;
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 400;
+}
+
+.about-copy {
+  margin-bottom: 2.5rem !important;
+  color: #70645c;
+  font-size: 1.08rem;
+  line-height: 1.9;
+}
+
+.about-photo {
+  display: block;
+  width: 100%;
+  max-width: 850px;
+  max-height: 390px;
+  margin: 0 auto;
+  border-radius: 1rem;
+  object-fit: cover;
+  object-position: center 58%;
+}
+
+.projects-section {
+  padding: 7rem 0;
+  background: #f7f0e8;
+}
+
+.section-heading {
+  margin-bottom: 3.5rem;
+}
+
+.section-intro {
+  margin: 0.5rem auto 0;
+  color: #74685f;
+}
+
+.featured-trip {
+  overflow: hidden;
+  border-radius: 1rem;
+  background: #fffaf5;
+  box-shadow: 0 12px 35px rgba(76, 51, 36, 0.08);
+}
+
+.travel-photo {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 22rem;
+  object-fit: cover;
+}
+
+.featured-photo {
+  min-height: 28rem;
+  max-height: 36rem;
+  object-position: center 55%;
+}
+
+.projects-section .featured-text {
+  padding: 2rem 2.5rem;
+}
+
+.projects-section .featured-text h3,
+.trip-card h3 {
+  margin-bottom: 0.8rem;
+  color: #49372e;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.projects-section .featured-text {
+  border-left-color: #d5a58e;
+}
+
+.trip-row {
+  overflow: hidden;
+  border-radius: 1rem;
+  margin-top: 1.5rem;
+  background: #fffaf5;
+}
+
+.trip-row .travel-photo {
+  min-height: 25rem;
+}
+
+.trip-card {
+  padding: 2rem;
+  background: #fffaf5;
+}
+
+.trip-row:nth-of-type(odd) .trip-card {
+  background: #f1e5d9;
+}
+
+.trip-card .project-text {
+  padding: 2rem;
+  color: #74685f;
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+.signup-section {
+  padding: 8rem 0;
+  background:
+    linear-gradient(rgba(38, 35, 36, 0.65), rgba(38, 35, 36, 0.72)),
+    url("../assets/img/australiagarden.jpg") center 55% / cover no-repeat;
+}
+
+.signup-section h2 {
+  font-size: clamp(2rem, 4vw, 3.1rem);
+  font-weight: 400;
+}
+
+.signup-section p:not(.eyebrow) {
+  font-size: 1.05rem;
+}
+
+.contact-section {
+  padding: 6rem 0;
+  background: #fffaf5 !important;
+}
+
+.contact-section .section-heading {
+  margin-bottom: 2.5rem;
+}
+
+.contact-section .card {
+  border: 1px solid #efe2d6;
+  border-bottom: 0.25rem solid #d7a48d;
+  border-radius: 0.85rem;
+  background: #fff;
+  box-shadow: 0 8px 24px rgba(76, 51, 36, 0.06);
+}
+
+.contact-section .card h3 {
+  color: #49372e;
+  font-size: 1.45rem;
+  font-weight: 400;
+}
+
+.contact-section .card p {
+  color: #74685f;
+  line-height: 1.7;
+}
+
+.contact-section .card hr {
+  border-color: #d7a48d;
+}
+
+.footer {
+  padding: 2rem 0;
+  color: #84746a;
+  background: #f7f0e8;
+}
+
+.footer span {
+  color: #b96f55;
+}
+
+@media (max-width: 767.98px) {
+  .masthead {
+    min-height: 39rem;
+    padding: 9rem 0 6rem;
+  }
+
+  .masthead h1,
+  .masthead h1.mx-auto {
+    font-size: clamp(3rem, 14vw, 5rem);
+  }
+
+  .about-section,
+  .projects-section {
+    padding: 5rem 0;
+  }
+
+  .featured-photo,
+  .trip-row .travel-photo {
+    min-height: 19rem;
+  }
+
+  .trip-card .project-text {
+    padding: 2rem 1rem;
+  }
+}
